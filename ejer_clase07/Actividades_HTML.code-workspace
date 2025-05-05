@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Actividades_HTML"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ejer_clase07"
+	}
+}

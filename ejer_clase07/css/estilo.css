@@ -1,0 +1,54 @@
+/* Reiniciar márgenes y padding para todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales para el body */
+body {
+  margin: 0 auto;
+  color: #f0f0f0;
+  background: #3f51b5;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px; /* Agregar separación de 10px respecto de los bordes de la página */
+}
+
+/* Estilos de la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Fusionar los bordes para un solo borde entre celdas */
+  margin: 20px 0; /* Agregar algo de espacio entre la tabla y otros elementos */
+}
+
+/* Estilo para las celdas de la tabla */
+table, th, td {
+  border: 1px solid #ccc; /* Bordes internos y externos visibles */
+}
+
+th {
+  background-color: #2196F3; /* Fondo del encabezado de la tabla */
+  color: white; /* Color de texto en el encabezado */
+  text-align: center; /* Centrar el texto en el encabezado */
+}
+
+td {
+  text-align: center; /* Centrar el contenido en las celdas */
+  padding: 8px; /* Espaciado interno */
+}
+
+td img {
+  width: 75px; /* Ajustar tamaño de las imágenes */
+  height: 75px;
+}
+
+/* Resaltar la fila donde se encuentra el cursor */
+tr:hover {
+  background-color: #f0f0f0; /* Fondo del resalte */
+  color: #3f51b5; /* Cambiar color de la fuente */
+}
+
+/* Separación entre la tabla y los bordes de la página */
+#listado {
+  margin: 10px;
+  padding: 10px;
+}
